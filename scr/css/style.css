@@ -1,0 +1,62 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+hr{
+    width: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.cartao{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+    
+}
+.cartao .informacoes-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    
+
+}
+.cartao .informacoes-perfil img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.cartao .numeros-perfil{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10%;
+    text-align: center;
+    
+}
+.numeros-perfil .info .numero,
+.cartao .informacoes-perfil p{
+    font-weight: 700;
+}
+.cartao .informacoes-perfil .idade,
+.cartao .informacoes-perfil .cidade,
+.numeros-perfil .info .numero .tipo{
+    color: var(--text-color);
+}
+
